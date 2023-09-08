@@ -1,0 +1,18 @@
+.main-container{
+    width:90vw;
+    height:90vh;
+    background-color: #f4f5f8;
+    display:flex;
+    gap:1em;
+    border-radius: 1.25em;
+}
+
+.sidebar-container{
+    border:5px solid blue;
+    flex:0.3;
+}
+
+.workarea-container{
+    border:5px solid red;
+    flex:0.7
+}

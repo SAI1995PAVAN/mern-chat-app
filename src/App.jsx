@@ -1,14 +1,13 @@
 import { useState } from 'react'
-
 import './App.css'
-
+import MainContainer from './Componenets/MainContiner/MainContainer'
 function App() {
  
 
   return (
-    <>
-     <h1>Reduxx</h1>
-    </>
+    <div className='app'>
+      <MainContainer />
+    </div>
   )
 }
 
